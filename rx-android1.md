@@ -366,7 +366,7 @@ simpleObservable
 람다의 단 한가지 단점은 자바 8이상에서만 쓸 수 있다는 점이다. 안드로이드는 자바 8을 지원하지 못하며 람다를 쓰기 위해서는 이전 버전에서 람다를 쓸 수 있게 하는 포팅 라이브러리를 사용해야 한다.
 
 ![](https://raw.githubusercontent.com/dalinaum/writing/master/retrolambda.png)
-<그림 3ㅎ> 자바 8 람다 코드를 자바 7 바이트 코드로 번역하는 레트로 람다
+<그림 3> 자바 8 람다 코드를 자바 7 바이트 코드로 번역하는 레트로 람다
 
 람다 포팅 중 안드로이드에 적합한 라이브러리는 레트로람다(Retrolambda) 라이브러리이다. (https://github.com/orfjackal/retrolambda) 레트로람다 라이브러리는 속도 상의 약점이 없으며 기술 선도 기업들이 2013년 부터 안드로이드에 테스트한 라이브러리이다.
 
